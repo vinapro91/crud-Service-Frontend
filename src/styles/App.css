@@ -1,0 +1,119 @@
+body {
+  margin:0 auto;
+  padding: 0;
+  background-color: #fafafa;
+  max-width: none;
+  color: white;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+input, select, textarea {
+  margin-bottom: 20px; 
+}
+
+.Container {
+  height: 99vh;
+  width:30vw;
+  background: rgba( 29, 31, 229, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.user-container{
+  
+  background: rgba(66, 66, 237, 0.8);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+  padding: 10px;
+  width: 90%;
+  margin:10px 0;
+}
+.profile-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-container button:hover {
+  background: rgba(239, 86, 157, 0.655);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.user-container button {
+  background: rgba( 239, 86, 158, 0.9 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  color: white;
+  font-weight: bold;
+}
+.forms-container{
+width:100vw;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.header-form{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+span {
+  font-weight: bold;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.retrive{
+ width: 30vw;
+ height: 100vh;
+ max-height: 100vh;
+ overflow: auto;
+}
+
+button{
+  background: rgba( 95, 239, 86, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+color: white;
+font-weight: bold;
+}
